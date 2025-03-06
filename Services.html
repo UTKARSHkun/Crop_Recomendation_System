@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./src/Images/image.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services</title>
+    <style>
+      body {
+          background-color: #c3dac2;
+      }
+  </style>
+</head>
+<body>
+    <div id="root"></div>
+    <div class="bg-gradient-to-b from-secondary to-green-400 dark:from-secondary dark:to-green-400 top-0 left-0 z-0">
+        <div class="py-2 px-4 mx-auto text-center lg:py-4 z-10 relative">
+            <h1 class="mb-2 text-4xl font-extrabold tracking-tight leading-none text-text md:text-5xl lg:text-6xl dark:text-text">Our Services</h1>
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="rounded-lg shadow-lg p-2">
+                    <h2 class="text-lg font-semibold mb-2 text-text dark:text-black">Crop Recommendations</h2>
+                    <p class="text-gray-600 dark:text-black">Our crop recommendation service provides farmers with tailored recommendations based on soil properties, climate data, and other relevant factors. By leveraging advanced algorithms, we help farmers optimize their crop selection for maximum yield and sustainability.</p>
+                    <button onclick="window.location.href='CropRecc.html'" class="bg-secondary text-white px-4 py-2 rounded-lg mt-4">Use this Service</button>
+                </div>
+                <div class="rounded-lg shadow-lg p-2">
+                    <h2 class="text-lg font-semibold mb-2 text-text dark:text-black">Weather Analysis</h2>
+                    <p class="text-gray-600 dark:text-black">Our weather analysis service equips farmers with insights into how weather conditions impact crop growth and yields. By analyzing historical and real-time weather data, we help farmers make informed decisions about planting schedules, irrigation, and other weather-dependent activities.</p>
+                    <button onclick="window.location.href='WeatherAna.html'" class=" bg-secondary text-white px-4 py-2 rounded-lg mt-4">Use this Service</button>
+                </div>
+                <div class="rounded-lg shadow-lg p-2">
+                    <h2 class="text-lg font-semibold mb-2 text-text dark:text-black">Roadmap</h2>
+                    <p class="text-gray-600 dark:text-black">Our roadmap service provides farmers with a comprehensive plan for optimizing their farming practices. We offer guidance on crop rotation, soil health management, pest control, and other strategies to improve long-term productivity and sustainability.</p>
+                    <button onclick="window.location.href='Roadmap.html'" class="bg-secondary text-white px-4 py-2 rounded-lg mt-4">Use this Service</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

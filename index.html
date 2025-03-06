@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./src/Images/image.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Learning Tool for Farmers</title>
+    <style>
+      body {
+          background-image: url('./src/Images/image1.png');
+          background-size: fill;
+          
+          background-repeat: no-repeat;
+      }
+  </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <div class="bg-gradient-to-b from-green-50 to-transparent dark:from-secondary w-full h-full relative top-0 left-0 z-0">
+      <div class="py-8 px-4 mx-auto text-center lg:py-16 z-10 relative">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-text">All in one Tool for Farmers</h1>
+        
+        <p class="mb-4 text-sm font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-xl dark:text-text">Interactive Learning Tool for Farmers</p>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-black">Combining the crop recommendation system with the weather impact analysis system into an interactive learning tool for farmers empowers them with knowledge and skills to make informed decisions about their farming practices.</p>
+        <div class="mx-auto">
+          <button onclick="window.location.href='Signup.html'" class="bg-secondary hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-100 dark:focus:ring-green-400 font-medium rounded-lg text-sm px-28 py-5 text-center me-2 mb-2">Sign up</button>
+          <button onclick="window.location.href='Signin.html'" class="bg-secondary hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-100 dark:focus:ring-green-400 font-medium rounded-lg text-sm px-28 py-5 text-center me-2 mb-2">Sign in</button>
+
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
